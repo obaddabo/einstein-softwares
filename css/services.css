@@ -1,0 +1,181 @@
+
+
+
+html,body{
+    margin: 0rem;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+/* ------------------------------------  Global Classes    --------------------------------------------*/
+
+
+:root{
+    --text-link:#3f4954;
+
+
+    --btn-blog: linear-gradient(120deg, #c2fcf7  0%, #a0c1b9 100%);
+}
+
+
+ul{
+
+
+    list-style-type: none ;
+}
+a{
+    text-decoration: none;
+    color:var(--text-link);
+}
+button.btn{
+    background: var(--btn-blog);
+    border: none;
+    border-radius: 2rem ;
+    padding: 1rem 3rem;
+   
+}
+button.btn:hover{
+   
+    background:transparent;
+    border: 1px solid white;
+}
+
+
+/* ---xxx---------------------------------  Global Classes    ---------------------xxx-----------------------*/
+
+
+
+
+.flex-row{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+
+            justify-content: space-between;
+}
+
+.nav-items{
+    display: flex;
+    margin: 0rem;
+}
+li.links{
+    padding: 1.6rem 2rem;
+    position: relative;
+    font-family: oswald;
+    font-size: 1.1rem;
+
+}
+nav .socials{
+    padding: 1.6rem .5rem;
+}
+
+.nav-brand{
+  padding: 1rem .2rem;
+  display: block;
+  font-family: Roboto;
+  font-size: 1.6rem;
+
+    
+}
+
+
+.links:hover{
+ background-color: rgb(8, 2, 68);;
+}
+
+
+.links:hover a{
+    color: white;
+}
+
+
+
+
+
+/*------------------main Services section------------------------------------------------------*/
+
+main .create-services{
+    background: url(../assets/ab\ bg.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: right;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+main .create{
+    display: flex;
+    justify-content: center;
+    font-family: Alegraya;
+    font-size: 1.6rem;
+    margin-left: 2rem;
+    
+}
+
+main .create-stuff{
+
+    padding-top: 1.0rem;
+}
+
+main .create-services{
+   
+    padding: 5rem;
+    
+}
+
+main .create-services .service-post{
+    padding: .1rem;
+}
+
+main .create-services .service-post .service-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    margin: 3rem 2rem;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+}
+
+main .create-services .service-post .service-content .service-title{
+    padding: .1rem 0;
+    font-family: oswald;
+}
+
+
+ main .create-services > .service-post > .service-content > .btn{
+     padding: .7rem 2rem;
+    
+     margin: .5rem;
+     cursor: pointer;
+ }
+
+main .service-post > .btn:hover{
+    background: transparent;
+    border: 1px solid white;
+   
+}
+
+
+main .service-title span{
+    display: block;
+    font-family:ZenAntique ;
+}
+
+/*--------------We teach ---------------------------*/
+
+
+main .create-stuff > .we-teach{
+    background: url(../assets/ab\ bg.jpg);
+    height: 100vh;
+    width: 100;
+    background-size: 100%;
+}
+/*-----------------We - teach-----------------*/
+
+
+
+
+
+
+/*-------xx--------main Services section------------------------xx------------*/
+

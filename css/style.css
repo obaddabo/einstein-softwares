@@ -1,0 +1,330 @@
+
+/*------------------Font importation --------------*/
+@import url('./fonts.css');
+
+
+
+html,body{
+    margin: 0px;
+box-sizing: border-box;
+overflow-x: hidden;
+}
+
+/*--------------------------------root& Variavles------------------------------------*/
+
+:root{
+
+   --text-link:#3f4954;
+
+   
+
+
+
+/*------------------------gradient-------------------------------*/
+
+
+--grad: linear-gradient(120deg, #c9fbff  0%, #85bdbf  100%);
+
+--btn-blog: linear-gradient(120deg, #c2fcf7  0%, #a0c1b9 100%);
+
+
+}
+
+span{
+    font-family: Alegraya Sans;
+    font-style: 14px;
+}
+
+h1{
+    font-family: Alegraya;
+    font-size: 2.5rem;
+}
+h3{
+    font-family: Abel;
+    font-size: 1.3rem
+}
+button.btn{
+    border: none; 
+    border-radius: 2rem ;
+    padding: 1rem 3rem;
+}
+
+
+ 
+
+
+/*------------------------------- Global Classes ------------------------------------*/
+
+a{
+    text-decoration: none ;
+    color: var(--text-link);
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+ul{
+    list-style-type: none;
+}
+
+
+/*---------------------------------------------- navbar -----------------------------------------------------------------------  */
+
+.nav{
+
+    background-color:white;
+    padding: 0 2rem;
+    height: 0rem;
+    min-height: 10vh;
+    overflow: hidden;
+}
+
+
+.nav .toggle-collapse{
+    position: absolute;
+    top: 0%;
+    width: 90%;
+    cursor: pointer;
+    display: none;
+}
+
+.nav .toggle-collapse .toggle-icons{
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.7rem 0rem;
+}
+
+.nav .toggle-collapse .toggle-icons i{
+    font-size: 1.4rem;
+    color: gray;
+}
+
+.collapse{
+    height: 30rem;
+}
+
+.nav-brand a{
+
+    
+    
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    display: block;
+    font-family:Roboto;
+    font-size: 1.6rem;
+     
+}
+
+
+.menu{
+   
+    justify-content: space-between;
+}
+.nav-items{
+    
+    display: flex;
+    margin: 0rem;
+    
+}
+
+.nav-link{
+    padding: 1.6rem 1rem;
+
+    font-size: 1.1rem;
+    position: relative;
+    font-family: oswald;
+
+}
+.nav-link:hover{
+    background-color: rgb(8, 2, 68);
+}
+.nav-link:hover a{
+    color: white;
+}
+
+.socials{
+   padding: 1.6rem 0rem ;
+  
+}
+.socials i{
+    padding: 0 .2rem;
+}
+.socials i:hover{
+    color: rgb(152, 143, 143);
+}
+
+
+
+/*------xxxxxxxxxxxxxxxxxxxxx------------------ navbar --------------------xxxxxxxxxxxxxxxxxxxx---------  */
+
+/*---------------------------viewport less than 750px------------------*/
+
+
+@media only screen and (max-width:750px) {
+
+
+    .nav .menu, .nav .nav-items{
+        flex-direction: column;
+        
+    }
+    .nav .toggle-collapse{
+        display: initial;
+    }
+}
+
+/*---------------------------viewport less than 750px------------------*/
+
+
+
+
+/*-------------------------------------- main Site Section-------------------------- */
+
+
+/*------------------------------------- Site title ---------------------------------*/
+
+main .site-title{
+    background: url(../assets/image.png);
+    background-size: cover;
+   background-color: black;
+      height: 110vh;
+    display: flex;
+    justify-content: center;
+    
+}
+main .site-title .site-background{
+    padding-top: 20rem;
+    text-align: center;
+    color:white;
+
+}
+
+main .site-title .site-background h1,h3{
+    margin: .3rem;
+}
+
+main .site-title .btn{
+    margin:  1.8rem;
+    background:var(--grad);
+    font-size: 1rem;
+    font-family: Opensans ;
+    cursor: pointer;
+}
+
+main .site-title .btn:hover{
+    background: transparent;
+    border: 1px solid white;
+ }
+
+
+
+
+
+
+/*------xxx---------------------------- Site title ------------xxx---------------------*/
+
+
+
+
+
+
+
+/* ----------------------Carousel---------------------*/
+
+main .blog{
+    background: url(../assets/ab\ bg.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100% ;
+    background-position: right;
+    background-size: 75%;
+}
+
+main .blog .blog-post{
+
+    padding-top: 6rem;
+}
+
+main .blog-post .blog-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    margin: 1rem 2rem;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+    
+}
+main .blog .blog-post .blog-content .blog-title{
+
+    padding: 2rem 0;
+}
+
+main .blog .blog-post .blog-content .btn-blog{
+    padding: .7rem 2rem;
+    background: var(--btn-blog);
+    margin: .5rem;
+}
+main .blog .blog-post .blog-content .btn-blog:hover{
+    background: transparent;
+    border: 1px solid white;
+}
+
+main  .blog-title span{
+    display:block;
+}
+
+main .section-title {
+        display: flex;
+        justify-content: center;
+}
+
+main .section-title {
+    font-family: Alegraya;
+    font-size: 2rem;
+}
+/* ------xx--------------Carousel----------xx---------*/
+
+
+
+
+
+
+
+
+/*-------------xxxxx--------------------- main Site Section------xxxx---------------- */
+
+
+/*--------------About Section-----------*/
+
+.about-heading h3{
+    margin-left: 30rem;
+    
+}
+
+
+section.about{
+
+    background-color: #c2fcf7;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+section.about img{
+
+    border: none;
+    border-radius: 100rem;
+   height: 30rem;
+
+}
+
+section.info{
+   margin-top: 12rem;
+   font-family: Alegraya;
+}
+
+
+
+
+
+/*--xxx---------About Section----xxx----*/

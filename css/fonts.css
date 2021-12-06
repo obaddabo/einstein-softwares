@@ -1,0 +1,38 @@
+
+
+/* ----------Roboto-------------- */
+@font-face {
+    font-family:  Roboto;
+    src: url('../fonts/Roboto-Regular.ttf');
+}
+
+/* --------Oswald-----------*/
+@font-face {
+    font-family:oswald;
+    src: url('../fonts/Oswald-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family:ZenAntique;
+    src: url('../fonts/ZenAntiqueSoft-Regular.ttf');
+}
+@font-face {
+    font-family: Alegraya;
+    src: url('../fonts/Abel-Regular.ttf');
+}
+@font-face {
+    font-family: Alegraya Sans;
+    src: url("../fonts/AlegreyaSans-Light.ttf");
+}
+
+@font-face {
+    font-family: Abel;
+    src: url('../fonts/Abel-Regular.ttf');
+}
+@font-face {
+    font-family: Merriweather;
+    src: url('../fonts/Merriweather-Regular.ttf');
+}
+@font-face {
+    font-family: Opensans;
+    src: url('../fonts/OpenSans-Italic-VariableFont_wdth\,wght.ttf');
+}
