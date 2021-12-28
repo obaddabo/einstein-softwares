@@ -185,7 +185,7 @@ ul{
 /*------------------------------------- Site title ---------------------------------*/
 
 main .site-title{
-    background: url(../assets/image.png);
+    background: url(./assets/image.png);
     background-size: cover;
    background-color: black;
       height: 110vh;
