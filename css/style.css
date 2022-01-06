@@ -225,7 +225,7 @@ main .site-title .btn:hover{
     
     main .site-title{
         background-size: 30%;
-        height: 110vh;
+       
         display: flex;
         justify-content: center;
     }
