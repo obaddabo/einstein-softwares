@@ -172,6 +172,9 @@ ul{
     .nav .toggle-collapse{
         display: initial;
     }
+    main .site-title{
+        background-size: 30%;
+    }
 }
 
 /*---------------------------viewport less than 750px------------------*/
