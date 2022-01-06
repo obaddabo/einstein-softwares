@@ -220,7 +220,15 @@ main .site-title .btn:hover{
     border: 1px solid white;
  }
 
+ @media only screen and (max-width:750px) {
 
+
+    
+    
+    main .site-title{
+        background-size: 30%;
+    }
+}
 
 
 
